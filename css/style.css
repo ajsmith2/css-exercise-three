@@ -63,7 +63,8 @@ chevron align to the right*/
 }
 
 /* tried using margin-top and margin-bottom: auto to
-center right chevron, but didn't work */
+center right chevron, but didn't work. Wasn't sure
+how to change chevron size, either. */
 i {
   text-align: right;
   margin-top: auto;
