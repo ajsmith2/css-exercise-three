@@ -1,3 +1,6 @@
+/* added box-sizing: border-box; so I didn't
+have to complicate the css with problems
+with padding, margins, and borders */
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -33,6 +36,7 @@ h1 {
   font-weight: bold;
   font-size: 130%;
 }
+
 h3 {
   margin-left: 5%;
 }
@@ -45,13 +49,21 @@ h3 {
   background-color: #e0dfe0;
   display: block;
 }
+
+/* changed min-width to 90% for content to make right
+chevron align to the right*/
 .content {
   min-width: 90%;
 }
+
+/* applied display:inline-block to both .content and
+ .arrow classes */
 .content, .arrow {
   display: inline-block;
-
 }
+
+/* tried using margin-top and margin-bottom: auto to
+center right chevron, but didn't work */
 i {
   text-align: right;
   margin-top: auto;
@@ -59,18 +71,18 @@ i {
   margin-right: 5%;
 }
 
+/* added hover option to background-color */
   div.location:hover {
   background-color: #b4b3b5;
 }
-.arrow-left {
-  background-color: none;
-}
-.content div {
-  margin: auto;
-}
 
+/*.content div {
+  margin: auto;
+}*/
+
+/* change padding-top to 10% added background color
+to separate the .location divs */
 .restaurant-list {
   padding-top: 10%;
   background-color: #3c3a3c;
 }
-/* change padding-top to 10% */
